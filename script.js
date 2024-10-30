@@ -126,6 +126,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Initialize any necessary event listeners or additional functionality
         initializeEventListeners();
 
+        // Add custom cursor
+        setupCustomCursor();
+        setupSectionColorTracking();
+
         // Add auto-redirect to first category
         setTimeout(() => {
             document.getElementById('auto-redirect').click();
