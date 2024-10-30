@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Haskoy";
+  src: url("fonts/Haskoy-variable.woff2") format("woff2");
+  display: auto;
+}
+@font-face {
+  font-family: "Milkman";
+  src: url("fonts/Milkman.woff") format("woff");
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("fonts/switzer/Switzer-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("fonts/switzer/Switzer-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("fonts/switzer/Switzer-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}

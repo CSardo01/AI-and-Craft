@@ -1,0 +1,202 @@
+{
+  "sections": [
+    {
+      "type": "essay",
+      "title": "Essay",
+      "colors": {
+        "backgroundColor": "#9b204f",
+        "textColor": "#f7b858",
+        "accentColor": "#f7b858"
+      }
+    },
+    {
+      "title": "Textiles",
+      "colors": {
+        "backgroundColor": "#f0e8d6",
+        "textColor": "#07306e",
+        "accentColor": "#07306e",
+        "overlayAccentColor": "#f0e8d6"
+      },
+      "variants": [
+        {
+          "layout": "layout-default",
+          "mainImage": {
+            "src": "images/section_1/Sami/Sami_main.jpeg",
+            "alt": "Sami Costumes as Contemporary Winter wear",
+            "title": "Sami Costumes as Contemporary Winter wear",
+            "prompt": "Vintage fashion photography of a young woman sitting in a dense Nordic forest on a windy day. She is wearing a skirt and hat adorned with vivid and intricate Sami textiles, a knit sweater, and a puffer vest. The mood of the photo is quiet and somber, the colorgrading is muted and low contrast. Low camera angle, wide angle lens.",
+            "questions": "How can we ensure that AI applications in textile design respect and preserve the cultural significance and traditional techniques of Sámi textile crafts like nalbinding, while addressing concerns about cultural appropriation, intellectual property rights, and the preservation of traditional knowledge?"
+          },
+          "secondaryImages": [
+            {
+              "src": "images/section_1/Sami/Sami_var_1.jpeg",
+              "alt": "textiles"
+            },
+            {
+              "src": "images/section_1/Sami/Sami_var_2.jpeg",
+              "alt": "textiles"
+            },
+            {
+              "src": "images/section_1/Sami/Sami_var_3.jpeg",
+              "alt": "textiles"
+            },
+            {
+              "src": "images/section_1/Sami/Sami_var_4.jpg",
+              "alt": "textiles"
+            }
+          ],
+          "sourceImages": {
+            "mainImage": {
+              "src": "images/section_1/Sami/sources/SamiFatherAndChild.jpg",
+              "alt": "source main"
+            },
+            "secondaryImages": [
+              {
+                "src": "images/section_1/Sami/sources/SamiCostume.jpg",
+                "alt": "source 1"
+              },
+              {
+                "src": "images/section_1/Sami/sources/SamiDetailWork.jpg",
+                "alt": "source 1"
+              },
+              {
+                "src": "images/section_1/Sami/sources/SamiMan.jpg",
+                "alt": "source 1"
+              },
+              {
+                "src": "images/section_1/Sami/sources/Samiheadress.jpg",
+                "alt": "source 1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Letters",
+      "colors": {
+        "backgroundColor": "#b9c8ef",
+        "textColor": "#071971",
+        "accentColor": "#071971",
+        "overlayAccentColor": "#b9c8ef"
+      },
+      "variants": [
+        {
+          "layout": "layout-2",
+          "mainImage": {
+            "src": "images/Section_3/Letters/Letters_main.jpeg",
+            "alt": "13th century Illuminated letter A",
+            "title": "13th century Illuminated letters",
+            "prompt": "A 13th century Illuminated letter A with a floral motif isolated and centered on a plain white background. No Text, people, or objects.",
+            "questions": "Lorem ipsum dolor sit amet..."
+          },
+          "secondaryImages": [
+            {
+              "src": "images/Section_3/Letters/Letters_var_1.jpeg",
+              "alt": "letter"
+            },
+            {
+              "src": "images/Section_3/Letters/Letters_var_2.jpeg",
+              "alt": "letter"
+            },
+            {
+              "src": "images/Section_3/Letters/Letters_var_3.jpg",
+              "alt": "letter"
+            },
+            {
+              "src": "images/Section_3/Letters/Letters_var_4.jpg",
+              "alt": "letters"
+            }
+          ],
+          "sourceImages": {
+            "mainImage": {
+              "src": "images/Section_3/Letters/sources/BookofHoursofMargaretdeFoix_1471.jpeg",
+              "alt": "Prayerbook 15th century"
+            },
+            "secondaryImages": [
+              {
+                "src": "images/Section_3/Letters/sources/Prayerbook_15c.jpeg",
+                "alt": "Book of Hours of Margaret de Foix 1471"
+              },
+              {
+                "src": "images/Section_3/Letters/sources/BookOfHours_15c.jpg",
+                "alt": "Book of Hours 15th century"
+              },
+              {
+                "src": "images/Section_3/Letters/sources/StDenisMissal_1350_2.jpg",
+                "alt": "St Denis Missal 1350"
+              },
+              {
+                "src": "images/Section_3/Letters/sources/StDenisMissal_1350.jpeg",
+                "alt": "St Denis Missal 1350"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Drawings",
+      "colors": {
+        "backgroundColor": "#f7b858",
+        "textColor": "#9b204f",
+        "accentColor": "#9b204f",
+        "overlayAccentColor": "#f7b858"
+      },
+      "variants": [
+        {
+          "layout": "layout-default",
+          "mainImage": {
+            "src": "images/section_2/Hound/Hound_main.jpeg",
+            "alt": "Medieval hunting hound.",
+            "title": "Medieval Hunting Hound",
+            "prompt": "a simple medieval illustration of a serious hunting hound isolated on a piece of parchment. medieval, illustration, manuscript.",
+            "questions": "Lorem ipsum dolor sit amet..."
+          },
+          "secondaryImages": [
+            {
+              "src": "images/section_2/Hound/Hound_var_1.jpeg",
+              "alt": "textiles"
+            },
+            {
+              "src": "images/section_2/Hound/Hound_var_2.jpeg",
+              "alt": "textiles"
+            },
+            {
+              "src": "images/section_2/Hound/Hound_var_3.jpeg",
+              "alt": "textiles"
+            },
+            {
+              "src": "images/section_2/Hound/Hound_var_4.jpg",
+              "alt": "textiles"
+            }
+          ],
+          "sourceImages": {
+            "mainImage": {
+              "src": "images/section_2/Hound/sources/Doodle.jpg",
+              "alt": "Doodle"
+            },
+            "secondaryImages": [
+              {
+                "src": "images/section_2/Hound/sources/MedicalMiniature_12c.jpg",
+                "alt": "Book of Hours 13th century"
+              },
+              {
+                "src": "images/section_2/Hound/sources/BearBlowingHorn_13c.jpg",
+                "alt": "Bear Blowing Horn 13th century"
+              },
+              {
+                "src": "images/section_2/Hound/sources/BookOfHours_15c_2.jpg",
+                "alt": "Book of Hours 15th century"
+              },
+              {
+                "src": "images/section_2/Hound/sources/BookOfHours_15c.jpg",
+                "alt": "Medical Miniature 12th century"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
