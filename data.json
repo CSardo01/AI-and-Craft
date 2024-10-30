@@ -25,7 +25,7 @@
             "alt": "Sami Costumes as Contemporary Winter wear",
             "title": "Sami Costumes as Contemporary Winter wear",
             "prompt": "Vintage fashion photography of a young woman sitting in a dense Nordic forest on a windy day. She is wearing a skirt and hat adorned with vivid and intricate Sami textiles, a knit sweater, and a puffer vest. The mood of the photo is quiet and somber, the colorgrading is muted and low contrast. Low camera angle, wide angle lens.",
-            "questions": "How can we ensure that AI applications in textile design respect and preserve the cultural significance and traditional techniques of Sámi textile crafts like nalbinding, while addressing concerns about cultural appropriation, intellectual property rights, and the preservation of traditional knowledge?"
+            "questions": "How can AI in textile design respect cultural significance and traditional techniques while addressing concerns about cultural appropriation, and preserving traditional knowledge?"
           },
           "secondaryImages": [
             {
@@ -48,24 +48,24 @@
           "sourceImages": {
             "mainImage": {
               "src": "images/section_1/Sami/sources/SamiFatherAndChild.jpg",
-              "alt": "source main"
+              "alt": "Sami Father and Child"
             },
             "secondaryImages": [
               {
                 "src": "images/section_1/Sami/sources/SamiCostume.jpg",
-                "alt": "source 1"
+                "alt": "Sami Costume"
               },
               {
                 "src": "images/section_1/Sami/sources/SamiDetailWork.jpg",
-                "alt": "source 1"
+                "alt": "Sami Detail Work"
               },
               {
                 "src": "images/section_1/Sami/sources/SamiMan.jpg",
-                "alt": "source 1"
+                "alt": "Sami Man"
               },
               {
                 "src": "images/section_1/Sami/sources/Samiheadress.jpg",
-                "alt": "source 1"
+                "alt": "Sami Headress"
               }
             ]
           }
@@ -88,7 +88,7 @@
             "alt": "13th century Illuminated letter A",
             "title": "13th century Illuminated letters",
             "prompt": "A 13th century Illuminated letter A with a floral motif isolated and centered on a plain white background. No Text, people, or objects.",
-            "questions": "Lorem ipsum dolor sit amet..."
+            "questions": "Can Artifical Intelligence be used as a form to archive and document the cultural heritage of the past?"
           },
           "secondaryImages": [
             {
@@ -151,7 +151,7 @@
             "alt": "Medieval hunting hound.",
             "title": "Medieval Hunting Hound",
             "prompt": "a simple medieval illustration of a serious hunting hound isolated on a piece of parchment. medieval, illustration, manuscript.",
-            "questions": "Lorem ipsum dolor sit amet..."
+            "questions": "At what point do we start to have to question the authenticity of an archival documents existence?"
           },
           "secondaryImages": [
             {
