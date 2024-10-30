@@ -109,30 +109,31 @@ const ICONS = {
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', async () => {
-    const data = await fetchData('data.json');
-    const main = document.querySelector('main');
-    main.innerHTML = ''; // Clear existing content
+    try {
+        // Fetch the data
+        const response = await fetch('data.json');
+        const data = await response.json();
 
-    data.sections.forEach((section, sectionIndex) => {
-        if (section.type === 'essay') {
-            const essaySection = createEssaySection(section);
-            main.appendChild(essaySection);
-        } else {
-            const sectionElement = createSection(section, sectionIndex);
-            main.appendChild(sectionElement);
+        // Get the main container
+        const main = document.querySelector('main');
 
-            section.variants.forEach((variant, variantIndex) => {
-                const globalVariantIndex = `${sectionIndex}-${variantIndex}`;
-                const overlay = createOverlay(variant, section.colors, globalVariantIndex);
-                document.body.appendChild(overlay);
-            });
-        }
-    });
+        // Create and append each section
+        data.sections.forEach((sectionData, index) => {
+            const section = createSection(sectionData, index);
+            main.appendChild(section);
+        });
 
-    initializeEventListeners();
-    setupCustomCursor();
-    applyRandomRotation();
-    setupSectionColorTracking();
+        // Initialize any necessary event listeners or additional functionality
+        initializeEventListeners();
+
+        // Add auto-redirect to first category
+        setTimeout(() => {
+            document.getElementById('auto-redirect').click();
+        }, 100);
+
+    } catch (error) {
+        console.error('Error initializing the application:', error);
+    }
 });
 
 // ==========================================================================
@@ -160,17 +161,29 @@ async function fetchData(url) {
  * @returns {HTMLElement} The created section element
  */
 function createSection(sectionData, sectionIndex) {
+    // Handle essay section
+    if (sectionData.type === 'essay') {
+        return createEssaySection(sectionData);
+    }
+
+    // Handle category sections
     const section = document.createElement('section');
     section.className = 'category';
+
+    // Add ID to first category section (index 1 since 0 is essay)
+    if (sectionIndex === 1) {
+        section.id = 'first-category';
+    }
+
     section.style.backgroundColor = sectionData.colors.backgroundColor;
     section.style.color = sectionData.colors.textColor;
     section.style.borderColor = sectionData.colors.textColor;
     section.style.setProperty('--accent-color', sectionData.colors.accentColor);
     section.style.setProperty('--accent-color-overlay', sectionData.colors.overlayAccentColor);
 
-    const variantGrids = sectionData.variants.map((variant, index) =>
+    const variantGrids = sectionData.variants ? sectionData.variants.map((variant, index) =>
         createVariantGrid(variant, sectionIndex, index, sectionData)
-    ).join('');
+    ).join('') : '';
 
     section.innerHTML = `
         <div class="navigation-container up-button">
