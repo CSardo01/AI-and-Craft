@@ -121,12 +121,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         data.sections.forEach((sectionData, index) => {
             const section = createSection(sectionData, index);
             main.appendChild(section);
+
+            // Create overlays for category sections
+            if (sectionData.variants) {
+                sectionData.variants.forEach((variant, variantIndex) => {
+                    const overlay = createOverlay(variant, sectionData.colors, `${index}-${variantIndex}`);
+                    document.body.appendChild(overlay);
+                });
+            }
         });
 
-        // Initialize any necessary event listeners or additional functionality
+        // Initialize event listeners and cursor
         initializeEventListeners();
-
-        // Add custom cursor
         setupCustomCursor();
         setupSectionColorTracking();
 
