@@ -170,7 +170,7 @@ section .navigation-container {
 
 section > h1 {
   white-space: nowrap;
-  font-size: 16rem;
+  font-size: 18rem;
   position: absolute;
   left: 50%;
   top: 50%;
